@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    height: 100vh;
+}
+.login{
+    height: 70%;
+    width: 70%;
+    background: #1488cc;
+    background: -webkit-linear-gradient(0deg, #1488cc 0%, #2b32b2 100%);
+    background: linear-gradient(0deg, #1488cc 0%, #2b32b2 100%);
+    position: absolute; 
+    border-radius: 20px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.one,.two{
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+}
+.one{
+    background-image:url(Seminar-rafiki.png);
+    background-size: cover  ;
+}
+.title{
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.two { 
+    padding: 50px;
+    
+}
+.getdata{
+    margin-top: 40px;
+    height: 70%;
+}
+.getmail,.getpass{
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+input:focus {
+    outline: none;
+}
+::placeholder {
+    color: white;
+}
+.submit input{
+    color: #1488cc;
+}
+.submit {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+@media only screen and (max-height: 915px){
+    .login{
+        height: 450px;
+        
+    }
+}
+@media only screen and (max-width: 912px) {
+    .one{
+        width: 0;
+        height: 0;
+    }
+    .two{
+        width: 100%;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        
+    }
+}
