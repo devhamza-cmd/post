@@ -274,7 +274,7 @@ img{
 width: 100%;
 margin: 0 auto;
 box-shadow: 3px 3px 10px 3px #dddddd;
-
+border-radius: 20px;
 padding: 0  10px;
 
 }
@@ -285,10 +285,7 @@ padding: 0  10px;
     .search {
         width: 300px;
        }
-    .post{
-        width: 80vw;
-       
-    }
+    
 }
 @media only screen and (min-width: 561px) {
    .learn ,.fs5{
@@ -296,6 +293,8 @@ padding: 0  10px;
    }
    
 }
+
+  
 .navbar{
     background-color: white;
     box-shadow: 3px 3px 10px 3px #dddddd;
@@ -314,4 +313,32 @@ nav{
 .publish{
 border: none;
 }
-
+.firstpost {
+    margin: 40px auto 0 auto;
+    height: 150px;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 992px) {
+    .firstpost {
+      width: 100%;
+    }
+  }
+.q {
+  white-space: nowrap;
+}
+  .info {
+    display: flex;
+  }
+  
+  .q {
+    padding-top: 3px;
+  }
+.react{
+    width: 100%;
+}
+.react a{
+    text-decoration: none;
+}
